@@ -1,0 +1,5 @@
+id,uuid,name,address,address2,city,state,zip,country,phone,website,created_at
+0,2859d6e0-1cb9-4fe9-bc00-97823a9fa4cb,Yundt-Flatley,1386 Lim Brooks,Suite 517,Lake Betsy,IA,19416,US,4034880719,http://www.halvorson.com/,2012-12-10 16:17:58
+1,d083169c-4340-4a07-b390-07d297823efd,Botsford Ltd,74883 Hane Prairie,,Margrettburgh,KS,99840,US,2462288476,http://bergstrom.org/,2013-11-19 23:26:13
+2,744f1e2c-7e92-41cd-8549-5eebd80393ac,"Turner, Kris and Conroy",194 Reino Ways,Apt. 735,East Harlon,NH,15676,US,1788019885,http://schmitt.net/,2014-03-27 07:56:45
+3,5c2169f1-a319-469b-bc40-8c89623c686e,Kertzmann LLC,7042 Etna Mountains,,Lake Tobi,KS,63064,US,4442359224,http://okeefe.info/,2012-12-16 20:18:08
