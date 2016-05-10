@@ -1,4 +1,5 @@
 class ClientsController < ApplicationController
+  layout "main"
 
   def index
     @clients = Client.all
