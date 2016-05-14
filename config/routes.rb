@@ -16,6 +16,14 @@ Rails.application.routes.draw do
       resources :clients, only: [:index, :create, :show, :update, :destroy]
     end
   end
+
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
+
   # post "/clients/import" => "clients#import", as: :import_clients
 
   # get "/styles/:id" => "styles#show", as: :show_styles

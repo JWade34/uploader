@@ -1,4 +1,6 @@
 class ClientsController < ApplicationController
+  before_filter :authorize
+  
   layout "main"
 
   def index

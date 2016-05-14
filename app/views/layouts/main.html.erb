@@ -13,6 +13,13 @@
     <li><a href="news.asp">News</a></li>
     <li><a href="contact.asp">Contact</a></li>
     <li><a href="about.asp">About</a></li>
+    <li style="float:right"><a>
+      <% if current_user %>
+        Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
+      <% else %>
+        <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+      <% end %>
+    </a></li>
   </ul>
 
 <%= yield %>

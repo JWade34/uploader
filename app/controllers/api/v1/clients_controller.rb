@@ -1,4 +1,6 @@
 class Api::V1::ClientsController < Api::V1::BaseController
+  before_filter :authorize
+  
   include ActiveHashRelation
 
   def show
