@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  uuid: 
+  uuid:
   name: MyString
   address: MyString
   address2: MyString
@@ -11,10 +11,9 @@ one:
   country: MyString
   phone: MyString
   website: MyString
-  csv_upload_id: MyString
 
 two:
-  uuid: 
+  uuid:
   name: MyString
   address: MyString
   address2: MyString
@@ -24,4 +23,3 @@ two:
   country: MyString
   phone: MyString
   website: MyString
-  csv_upload_id: MyString

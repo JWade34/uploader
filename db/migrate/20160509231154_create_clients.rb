@@ -11,7 +11,6 @@ class CreateClients < ActiveRecord::Migration
       t.string  :country
       t.string  :phone
       t.string  :website
-      t.integer :upload_id
 
       t.timestamps null: false
     end

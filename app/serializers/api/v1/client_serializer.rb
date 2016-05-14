@@ -1,5 +1,5 @@
 class Api::V1::ClientSerializer < Api::V1::BaseSerializer
-  attributes :id, :uuid, :name,  :address, :address2, :city, :state, :zip, :country, :phone, :website, :created_at, :updated_at
+  attributes :id, :uuid, :name,  :address, :address2, :city, :state, :zip, :country, :phone, :website, :created_at
 
   # has_many :microposts
   # has_many :following

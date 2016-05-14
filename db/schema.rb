@@ -27,12 +27,6 @@ ActiveRecord::Schema.define(version: 20160513230502) do
     t.string   "country"
     t.string   "phone"
     t.string   "website"
-    t.integer  "upload_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "uploads", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
